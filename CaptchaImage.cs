@@ -18,7 +18,7 @@ namespace CaptchaImage
         private int height;
         private System.Drawing.FontFamily fontFamily;
         private Bitmap image;
-
+        private string field1;
         private Random random = new Random( );
 
         public CaptchaImage( int width, int height, System.Drawing.FontFamily fontFamily )
